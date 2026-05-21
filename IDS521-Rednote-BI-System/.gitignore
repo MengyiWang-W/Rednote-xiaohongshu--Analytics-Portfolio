@@ -1,0 +1,39 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.tmp
+*.log
+
+# SQL Server / BI temporary files
+*.bak
+*.trn
+*.mdf
+*.ldf
+
+# SSIS / SSAS / SSRS build outputs
+*.ispac
+*.deploymentmanifest
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Python cache if helper scripts are used
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.venv/
