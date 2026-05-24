@@ -1,6 +1,8 @@
-Objective: Automate ingestion and transformation of raw CSV data into SQL Server warehouse tables.
+## Objective
 
-ETL Workflow
+Automate ingestion and transformation of raw CSV data into SQL Server warehouse tables.
+
+## ETL Workflow
 
 Step 1: Import CSV via Flat File Source  
 
@@ -14,16 +16,16 @@ Step 5: Load FactPosts
 
 Step 6: Validate warehouse row counts
 
-SSIS Business Value
+## SSIS Business Value
 
 SSIS transforms fragmented raw content data into standardized warehouse-ready analytical structures.
 
-Common ETL Challenges Solved:
+## Common ETL Challenges Solved
 
-•	Unicode compatibility 
+Unicode compatibility 
 
-•	Data type conversion 
+Data type conversion 
 
-•	Null pricing normalization 
+Null pricing normalization 
 
-•	Duplicate prevention
+Duplicate prevention

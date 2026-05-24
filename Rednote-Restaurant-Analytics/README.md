@@ -112,7 +112,7 @@ weekday
 
 is_weekend
 
-The pipeline also generates BI-ready identifiers:
+# The pipeline also generates BI-ready identifiers:
 
 post_id
 
@@ -138,7 +138,7 @@ Novelty score vs engagement
 
 Image count vs engagement
 
-Interaction Analysis
+# Interaction Analysis
 
 Examples:
 
@@ -151,25 +151,81 @@ Structured content × content length
 EDA outputs are exported as CSV and Excel files for dashboarding and reporting.
 
 ---
-# Example Insights
+# Example Analytical Findings
 
-Feature	Value	         Avg Engagement
+- Medium-length captions showed stronger average engagement than long-form captions.
 
-novelty_score	           3	3.38
+- Certain niche cuisine categories demonstrated higher engagement efficiency.
 
-image_count_bucket	   small	2.88
+- Some interaction groups showed elevated engagement but require larger sample validation.
 
-content_length_bucket	long	2.61
+- Image volume and content structure showed measurable relationships with engagement behavior.
 
 ---
+
+# Project Structure
+
+```text
+
+Rednote-Restaurant-Analytics/
+│
+├── data/
+
+│   ├── raw/
+
+│   └── processed/
+
+│
+├── notebooks/
+
+│   ├── pipeline.py
+
+│   └── eda.py
+│
+├── outputs/
+│
+├── src/
+
+│   ├── data_cleaning.py
+
+│   ├── validation.py
+
+│   ├── feature_engineering.py
+
+│   ├── eda_analysis.py
+
+│   └── bi_export.py
+│
+├── requirements.txt
+
+├── .gitignore
+
+└── README.md
+```
+---
 # Technologies Used
+
+Analytics
+
 Python
 
 Pandas
 
+NumPy
+
 Jupyter Notebook
 
+Data Processing
+
 Excel
+
+CSV
+
+Data Validation
+
+Feature Engineering
+
+BI Integration
 
 SQL Server
 
@@ -178,7 +234,6 @@ SSIS
 SSAS
 
 SSRS
-
 ---
 # Running the Project
 Install dependencies
@@ -200,6 +255,23 @@ Run EDA analysis
 python notebooks/eda.py
 ```
 ---
+
+# Business Use
+
+The processed dataset can support:
+
+Content strategy analysis
+
+Restaurant performance comparison
+
+BI dashboarding
+
+KPI analysis
+
+SSIS / SSAS / SSRS integration
+
+Star schema warehouse modeling
+
 # Future Improvements
 
 Potential future extensions include:
