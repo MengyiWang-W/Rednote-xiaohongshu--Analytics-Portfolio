@@ -26,35 +26,6 @@ The pipeline transforms raw restaurant post data into analytics-ready and BI-rea
 
 ---
 
-# Project Structure
-
-```text
-Rednote-Restaurant-Analytics/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│   ├── pipeline.py
-│   └── eda.py
-│
-├── src/
-│   ├── data_cleaning.py
-│   ├── validation.py
-│   ├── feature_engineering.py
-│   ├── eda_analysis.py
-│   └── bi_export.py
-│
-├── outputs/
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
-
-```
----
-
 # Analytics Workflow
 1. Data Cleaning
 
@@ -170,36 +141,24 @@ EDA outputs are exported as CSV and Excel files for dashboarding and reporting.
 Rednote-Restaurant-Analytics/
 │
 ├── data/
-
 │   ├── raw/
-
 │   └── processed/
-
 │
 ├── notebooks/
-
 │   ├── pipeline.py
-
 │   └── eda.py
 │
 ├── outputs/
 │
 ├── src/
-
 │   ├── data_cleaning.py
-
 │   ├── validation.py
-
 │   ├── feature_engineering.py
-
 │   ├── eda_analysis.py
-
 │   └── bi_export.py
 │
 ├── requirements.txt
-
 ├── .gitignore
-
 └── README.md
 ```
 ---

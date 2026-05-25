@@ -4,7 +4,7 @@ A portfolio of end-to-end analytics and business intelligence projects built usi
 
 This repository contains two connected analytics projects:
 
-1. Rednote Restaurant Analytics
+## 1. Rednote Restaurant Analytics
 
    - Python-based analytics pipeline
 
@@ -14,7 +14,7 @@ This repository contains two connected analytics projects:
 
    - BI-ready dataset generation
 
-2. IDS521 Rednote BI System
+## 2. IDS521 Rednote BI System
 
    - SQL Server data warehouse
 
@@ -50,17 +50,21 @@ SSRS Dashboards
 
 Rednote-Analytics-Portfolio/
 │
+
 ├── IDS521-Rednote-BI-System/
 │
+
 ├── Rednote-Restaurant-Analytics/
 │
+
 ├── README.md
 │
+
 └── .gitignore
 
 # Core Technologies
 
-# Programming & Analytics
+## Programming & Analytics
 
 Python
 
@@ -70,7 +74,7 @@ NumPy
 
 Jupyter Notebook
 
-# Database & BI
+## Database & BI
 
 SQL Server
 
@@ -82,7 +86,7 @@ SSAS
 
 SSRS
 
-# Data Modeling
+## Data Modeling
 
 Star Schema
 
