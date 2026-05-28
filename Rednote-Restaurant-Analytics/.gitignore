@@ -21,11 +21,3 @@ Thumbs.db
 
 # Excel temp files
 ~$*.xlsx
-
-# Generated files
-outputs/*.csv
-outputs/*.xlsx
-
-# Processed data
-data/processed/*.csv
-data/processed/*.xlsx
